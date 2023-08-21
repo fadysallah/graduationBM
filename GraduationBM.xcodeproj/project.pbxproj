@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0C56D6D22A939DDF000F6442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56D6D12A939DDF000F6442 /* AppDelegate.swift */; };
-		0C56D6D42A939DDF000F6442 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56D6D32A939DDF000F6442 /* SceneDelegate.swift */; };
 		0C56D6D62A939DDF000F6442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56D6D52A939DDF000F6442 /* ViewController.swift */; };
 		0C56D6D92A939DDF000F6442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C56D6D72A939DDF000F6442 /* Main.storyboard */; };
 		0C56D6DC2A939DDF000F6442 /* GraduationBM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C56D6DA2A939DDF000F6442 /* GraduationBM.xcdatamodeld */; };
@@ -39,7 +38,6 @@
 /* Begin PBXFileReference section */
 		0C56D6CE2A939DDF000F6442 /* GraduationBM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraduationBM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C56D6D12A939DDF000F6442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C56D6D32A939DDF000F6442 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0C56D6D52A939DDF000F6442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0C56D6D82A939DDF000F6442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C56D6DB2A939DDF000F6442 /* GraduationBM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GraduationBM.xcdatamodel; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				0C56D6D12A939DDF000F6442 /* AppDelegate.swift */,
-				0C56D6D32A939DDF000F6442 /* SceneDelegate.swift */,
 				0C56D6D52A939DDF000F6442 /* ViewController.swift */,
 				0C56D6D72A939DDF000F6442 /* Main.storyboard */,
 				0C56D6DD2A939DE2000F6442 /* Assets.xcassets */,
@@ -264,7 +261,6 @@
 				0C56D6D62A939DDF000F6442 /* ViewController.swift in Sources */,
 				0C56D6D22A939DDF000F6442 /* AppDelegate.swift in Sources */,
 				0C56D6DC2A939DDF000F6442 /* GraduationBM.xcdatamodeld in Sources */,
-				0C56D6D42A939DDF000F6442 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
