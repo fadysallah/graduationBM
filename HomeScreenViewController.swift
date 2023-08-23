@@ -9,10 +9,12 @@ import UIKit
 
 class HomeScreenViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-
+    //MARK: Outlets
     @IBOutlet weak var homeView: UIView!
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var tableView: UITableView!
+    
+    //MARK: LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
@@ -23,6 +25,8 @@ class HomeScreenViewController: UIViewController, UITableViewDelegate, UITableVi
         setUpUI()
         // Do any additional setup after loading the view.
     }
+    
+    //MARK: Table Attributer
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         1
     }
@@ -33,6 +37,7 @@ class HomeScreenViewController: UIViewController, UITableViewDelegate, UITableVi
         return cell
         
     }
+    //MARK: Functions
     func setUpUI() {
         let imageView = UIImageView()
         let label = UILabel()

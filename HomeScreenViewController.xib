@@ -33,6 +33,10 @@
                             <rect key="frame" x="0.0" y="0.0" width="393" height="293"/>
                             <color key="backgroundColor" systemColor="systemGray3Color"/>
                         </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WBQ-6b-cZ9">
+                            <rect key="frame" x="82" y="270" width="75" height="34.333333333333314"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </stackView>
                     </subviews>
                     <constraints>
                         <constraint firstItem="TS0-bc-D3V" firstAttribute="leading" secondItem="3jU-sC-fun" secondAttribute="leading" id="5CI-Wc-yVm"/>
