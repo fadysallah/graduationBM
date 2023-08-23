@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  HomeScreenViewController.swift
 //  GraduationBM
 //
 //  Created by Selvia Ashraf on 23/08/2023.
@@ -7,27 +7,31 @@
 
 import UIKit
 
-class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class HomeScreenViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    @IBOutlet weak var scrollView: UIScrollView!
+
     @IBOutlet weak var homeView: UIView!
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var tableView: UITableView!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.dataSource = self
+        tableView.delegate = self
+        view.addSubview(scrollView)
+        scrollView.addSubview(tableView)
+        tableView.addSubview(homeView)
+        setUpUI()
+        // Do any additional setup after loading the view.
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
+        cell.textLabel?.text = "hello"
         return cell
-    }
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.addSubview(scrollView)
-//        scrollView.addSubview(tableView)
-//        tableView.addSubview(homeView)
-        setUpUI()
-       // view.addSubview(customView)
+        
     }
     func setUpUI() {
         let imageView = UIImageView()
@@ -67,7 +71,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         subTitleLabel.font =  UIFont.systemFont(ofSize: 15, weight: .regular)
         subTitleLabel.frame = CGRect(x: 50, y: 190, width: 300, height: 30)
     }
+
+
+
 }
-
-
-
