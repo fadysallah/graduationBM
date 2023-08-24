@@ -14,6 +14,13 @@
 		0C56D6EC2A939DE3000F6442 /* GraduationBMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56D6EB2A939DE3000F6442 /* GraduationBMTests.swift */; };
 		0C56D6F62A939DE3000F6442 /* GraduationBMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56D6F52A939DE3000F6442 /* GraduationBMUITests.swift */; };
 		0C56D6F82A939DE3000F6442 /* GraduationBMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56D6F72A939DE3000F6442 /* GraduationBMUITestsLaunchTests.swift */; };
+ HEAD
+
+		0C620D102A97F76500C49FBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C620D0E2A97F76500C49FBB /* ViewController.swift */; };
+		0C620D112A97F76500C49FBB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C620D0F2A97F76500C49FBB /* ViewController.xib */; };
+		83AAF17D2A95F45C00AEB87E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AAF17B2A95F45C00AEB87E /* HomeViewController.swift */; };
+		83AAF17E2A95F45C00AEB87E /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83AAF17C2A95F45C00AEB87E /* HomeViewController.xib */; };
+ 6d0e7b0 (testDesign)
 		83AAF1882A96012F00AEB87E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AAF1872A96012F00AEB87E /* HomeView.swift */; };
 		83AAF18B2A965FB400AEB87E /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AAF1892A965FB400AEB87E /* HomeScreenViewController.swift */; };
 		83AAF18C2A965FB400AEB87E /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83AAF18A2A965FB400AEB87E /* HomeScreenViewController.xib */; };
@@ -48,6 +55,13 @@
 		0C56D6F12A939DE3000F6442 /* GraduationBMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraduationBMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C56D6F52A939DE3000F6442 /* GraduationBMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduationBMUITests.swift; sourceTree = "<group>"; };
 		0C56D6F72A939DE3000F6442 /* GraduationBMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduationBMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+ HEAD
+
+		0C620D0E2A97F76500C49FBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C620D0F2A97F76500C49FBB /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		83AAF17B2A95F45C00AEB87E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		83AAF17C2A95F45C00AEB87E /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+ 6d0e7b0 (testDesign)
 		83AAF1872A96012F00AEB87E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		83AAF1892A965FB400AEB87E /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		83AAF18A2A965FB400AEB87E /* HomeScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenViewController.xib; sourceTree = "<group>"; };
@@ -105,6 +119,8 @@
 				0C56D6E22A939DE2000F6442 /* Info.plist */,
 				83AAF17F2A95FA7700AEB87E /* Resources */,
 				83AAF1872A96012F00AEB87E /* HomeView.swift */,
+				0C620D0E2A97F76500C49FBB /* ViewController.swift */,
+				0C620D0F2A97F76500C49FBB /* ViewController.xib */,
 			);
 			path = GraduationBM;
 			sourceTree = "<group>";
@@ -253,6 +269,11 @@
 				0C56D6E12A939DE2000F6442 /* LaunchScreen.storyboard in Resources */,
 				83AAF18C2A965FB400AEB87E /* HomeScreenViewController.xib in Resources */,
 				0C56D6DE2A939DE2000F6442 /* Assets.xcassets in Resources */,
+ HEAD
+
+				0C620D112A97F76500C49FBB /* ViewController.xib in Resources */,
+				83AAF17E2A95F45C00AEB87E /* HomeViewController.xib in Resources */,
+ 6d0e7b0 (testDesign)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C620D102A97F76500C49FBB /* ViewController.swift in Sources */,
 				0C56D6D22A939DDF000F6442 /* AppDelegate.swift in Sources */,
 				83AAF1882A96012F00AEB87E /* HomeView.swift in Sources */,
 				0C56D6DC2A939DDF000F6442 /* GraduationBM.xcdatamodeld in Sources */,
